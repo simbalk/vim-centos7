@@ -27,7 +27,7 @@ else
 	echo_log "vim 8.0+ has been installed"
 fi
 
-cp $current_dir/vimrc ~/.vimrc
+cp $current_dir/.vimrc ~/.vimrc
 mkdir ~/.vim
 cp -R $current_dir/colors ~/.vim/
 
